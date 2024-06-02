@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'papes-canzoniere';
+  aggiungiCanzone(nuovoTitolo: HTMLInputElement, nuovaDurata: HTMLInputElement, nuovaData: HTMLInputElement):boolean {
+    console.log(nuovoTitolo.value, nuovaDurata.value, nuovaData.value)
+    return false
+  }
 }
