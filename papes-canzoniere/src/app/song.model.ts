@@ -8,5 +8,4 @@ export class Song {
         this.durata = durata
         this.title = title
     }
-
 }
